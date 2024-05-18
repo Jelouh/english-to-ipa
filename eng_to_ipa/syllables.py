@@ -1,8 +1,8 @@
 import re
 import os
 import json
-from eng_to_ipa import transcribe
 
+from . import transcribe
 
 with open(os.path.join(os.path.abspath(os.path.dirname(__file__)),
                        'resources', 'phones.json'), "r", encoding="UTF-8") as phones_json:

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import re
 from os.path import join, abspath, dirname
-import eng_to_ipa.stress as stress
 from collections import defaultdict
 
+from . import stress as stress
 
 class ModeType(object):
 

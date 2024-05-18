@@ -1,9 +1,9 @@
 import os
 import re
 import json
-import eng_to_ipa.syllables as syllables
 import logging
 
+from . import syllables as syllables
 
 def create_phones_json():
     """Creates the phones.json file in the resources directory from the phones.txt source file from CMU"""

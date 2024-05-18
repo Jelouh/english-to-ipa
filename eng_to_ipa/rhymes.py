@@ -1,5 +1,5 @@
 # Simple rhyming support. Call get_rhymes() on a word to find rhymes from the CMU dictionary.
-from eng_to_ipa.transcribe import ModeType, get_cmu, preprocess
+from .transcribe import ModeType, get_cmu, preprocess
 
 
 def remove_onset(word_in):
